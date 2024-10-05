@@ -1,0 +1,42 @@
+/* History Component Styles */
+.history-container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.history-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Margin above the table */
+}
+
+.history-table th,
+.history-table td {
+    padding: 10px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+.history-table th {
+    background-color: #4CAF50; /* Green header background */
+    color: white; /* White text for header */
+}
+
+.history-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+}
+
+.history-table tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+.no-orders {
+    text-align: center; /* Center the text for no orders */
+    font-size: 18px; /* Larger font size */
+    color: #777; /* Gray color for the message */
+}

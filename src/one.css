@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.child {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 260px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.image {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.active-button {
+    background-color: #3498db;
+    color: white;
+}
+
+.disabled-button {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #777;
+}
+
+.order-form {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+
+.order-form form div {
+    margin-bottom: 15px;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
